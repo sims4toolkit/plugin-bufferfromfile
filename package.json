@@ -1,0 +1,28 @@
+{
+  "name": "@s4tk/plugin-bufferfromfile",
+  "version": "0.1.0",
+  "description": "S4TK plugin to use BufferFromFile.",
+  "main": "index.cjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sims4toolkit/plugin-bufferfromfile.git"
+  },
+  "homepage": "https://github.com/sims4toolkit/plugin-bufferfromfile#readme",
+  "bugs": {
+    "url": "https://github.com/sims4toolkit/plugin-bufferfromfile/issues"
+  },
+  "scripts": {
+    "clean": "rm -rf ./dst/**",
+    "build": "npm run clean ; node scripts/prepublish.cjs",
+    "publish": "npm run build && sh scripts/publish.sh"
+  },
+  "author": "frankkulak",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/bePatron?u=40823163"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bufferfromfile": "^0.4.375"
+  }
+}
