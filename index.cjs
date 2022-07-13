@@ -1,6 +1,8 @@
 const BufferFromFile = require("bufferfromfile");
 
-module.exports = {
+const BufferFromFilePlugin = {
   name: "BufferFromFile",
-  value: BufferFromFile
+  data: BufferFromFile
 };
+
+module.exports = BufferFromFilePlugin;
