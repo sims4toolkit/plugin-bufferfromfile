@@ -13,6 +13,6 @@ delete pkg.scripts;
 fs.writeFileSync(getPath('../dst/package.json'), JSON.stringify(pkg, null, '\t'));
 
 // copy README, LICENSE, and CHANGELOG
-['index.cjs', 'LICENSE', 'README.md', 'CHANGELOG.md'].forEach(filename => {
+['LICENSE', 'README.md', 'CHANGELOG.md'].forEach(filename => {
   fs.copyFileSync(getPath(`../${filename}`), getPath(`../dst/${filename}`));
 });

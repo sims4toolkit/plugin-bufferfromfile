@@ -5,4 +5,4 @@ const BufferFromFilePlugin = {
   data: BufferFromFile
 };
 
-module.exports = BufferFromFilePlugin;
+export default BufferFromFilePlugin;
