@@ -24,7 +24,7 @@ registerPlugin(BufferFromFile);
 
 // CJS
 const { registerPlugin } = require("@s4tk/models/plugins");
-const BufferFromFile = require("@s4tk/plugin-bufferfromfile");
+const BufferFromFile = require("@s4tk/plugin-bufferfromfile").default;
 registerPlugin(BufferFromFile);
 ```
 
